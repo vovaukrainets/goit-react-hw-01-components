@@ -2,6 +2,8 @@
   margin-top: 35px;
   margin-left: 35px;
   border-collapse: collapse;
+  margin-left: 500px;
+  margin-bottom: 100px;
 }
 
 .th__list {
@@ -9,7 +11,12 @@
   height: 30px;
   padding: 10px;
   border: 1px solid white;
-  background-color: darkcyan;
+  background: rgb(255, 252, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 252, 0, 1) 0%,
+    rgba(45, 94, 253, 1) 0%
+  );
   color: white;
 }
 
