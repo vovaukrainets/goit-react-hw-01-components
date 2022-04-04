@@ -1,0 +1,29 @@
+.th {
+  margin-top: 35px;
+  margin-left: 35px;
+  border-collapse: collapse;
+}
+
+.th__list {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: darkcyan;
+  color: white;
+}
+
+.th__item {
+  width: 100px;
+  height: 30px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.line:nth-child(2n + 1) {
+  background: rgb(228, 226, 226);
+}
+
+.line:nth-child(2n) {
+  background: rgb(250, 246, 246);
+}
